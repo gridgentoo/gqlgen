@@ -1,3 +1,15 @@
+Уильям Морган (генеральный директор Buoyant) написал очень хороший пост в блоге — 
+[Балансировка нагрузки gRPC на Kubernetes без слез] — 
+объясняет, почему балансировка нагрузки gRPC в kubernetes плохо работает с реализацией балансировки нагрузки kubernetes по умолчанию, 
+которая использует iptables в ядре Linux.   
+https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears/  
+
+[xDS] Обнаружения конечных точек xDS в kubernetes    
+https://itnext.io/proxyless-grpc-load-balancing-in-kubernetes-ca1a4797b742     
+
+Grpc Load Balancer with Kubernetes resolver   
+https://github.com/sercand/kuberesolver   
+	
 ![gqlgen](https://user-images.githubusercontent.com/980499/133180111-d064b38c-6eb9-444b-a60f-7005a6e68222.png)
 
 
